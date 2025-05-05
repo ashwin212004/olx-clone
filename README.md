@@ -16,6 +16,7 @@ Swapzone is a modern web application that allows users to buy and sell second-ha
 
 💳 Stripe payment integration (for future expansion)
 
+🛠️ Tech Stack
 Frontend: React.js, Tailwind CSS
 
 Backend: Node.js, Express.js
