@@ -2,6 +2,7 @@
 Swapzone is a modern web application that allows users to buy and sell second-hand products. It offers a seamless experience with real-time chat, product listing, and seller notifications.
 
 🚀 Features
+
 🛒 List and browse products by category
 
 💬 Real-time chat between buyers and sellers
