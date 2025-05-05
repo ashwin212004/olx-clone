@@ -1,0 +1,128 @@
+.login-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.login-image {
+  flex: 1;
+  text-align: center;
+  margin-right: 20px;
+}
+.login-image img {
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  box-shadow: 0px 4px 12px white;
+
+}
+.login-container {
+  flex: 1;
+  max-width: 375px;
+  height: auto;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px #002f34;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-right: 50px;
+}
+.login-heading {
+  font-style: italic;
+  font-size: 2rem;
+  color: #002f34;
+  margin-bottom: 10px;
+  font-family: 'Arial', sans-serif;
+}
+.login-form {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.login-form label {
+  font-size: 1rem;
+  color: #002f34;
+  display: block;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border 0.3s ease;
+}
+
+.login-form input:focus {
+  border-color: #002f34;
+  outline: none;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.login-button:hover {
+  background-color: #002f34;
+}
+
+/* Link styling */
+.signup-link {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  color: #002f34;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .login-wrapper {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .signup-image {
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
+
+  .login-container{
+      width: 100%;
+      max-width: 100%;
+      padding: 20px;
+  }
+
+  .login-heading {
+      font-size: 1.5rem;
+  }
+
+  .login-form {
+      font-size: 0.9rem;
+  }
+
+  .login-button {
+      font-size: 1rem;
+  }
+}

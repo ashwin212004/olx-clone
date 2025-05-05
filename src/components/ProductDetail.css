@@ -1,0 +1,128 @@
+
+.container {
+    max-width:95%;
+    height: 95%;
+
+}
+
+.product-details {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #002f34;
+}
+
+.product-images img {
+    margin: 20px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.product-info h5 {
+    margin-left: 20px;
+    font-weight: 600;
+}
+.text-danger{
+    margin-left: 20px;
+
+}
+.text-muted{
+    margin-left: 20px;
+
+}
+.contact-info p {
+    margin-left: 10px;
+}
+ .btn-outline-primary{
+    margin-left: 20px;
+    color: #002f34;
+
+ }
+ .btn-outline-secondary{
+    color: #002f34;
+    margin-left: 20px;
+
+ }
+.chat-section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #002f34
+}
+
+.chat-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.chat-box {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background: #f1f1f1;
+}
+
+.chat-msg {
+    display: inline-block;
+    max-width: 75%; 
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.my-msg {
+    background-color: #007bff;
+    text-align: right;
+    float: right;
+    clear: both;
+}
+
+.other-msg {
+    background-color: #0f4e1e;
+    text-align: left;
+    float: left; 
+    clear: both;
+}
+
+
+.chat-username {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.chat-input input {
+    width: 100%;
+}
+
+.chat-input button {
+    margin-top: 5px;
+}
+.chat-input button:hover {
+    background-color: #002f34;
+}
+.buybtn{
+  color: white;
+  background-color: #007bff;
+  font-size: large;
+  border-radius: 3px;
+
+}
+.buybtn:hover{
+    background-color: #002f34;
+    
+  }
+.textdesc{
+    display: flex;
+    margin-left: 20px;
+}
+.cat-det{
+    display: flex;
+    margin-left: 20px;
+
+}

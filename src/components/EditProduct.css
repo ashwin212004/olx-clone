@@ -1,0 +1,58 @@
+.form2-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('C:\Users\ashwi\OneDrive\Desktop\my-app\react-app\src\components\add.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.form2-card{
+    margin-top: 5px;
+    background:#f0f0f0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px #002f34;
+    width: 550px;
+    z-index: 1;
+    position: relative;
+}
+
+.p-2{
+    text-align:center;
+    font-size:30px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.label-2{
+    margin-left: 10px;
+    font-weight: bold;
+    display: block;
+}
+
+.form2-control{
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.edit-btn{
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.edit-btn:hover{
+    background-color: #002f34;
+}

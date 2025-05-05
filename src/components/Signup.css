@@ -1,0 +1,144 @@
+/* Wrapper for the image and form container */
+.signup-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap; /* Allows wrapping on small screens */
+}
+
+/* Container for the image */
+.signup-image {
+    flex: 1;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.signup-image img {
+    max-width: 900px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0px 4px 12px white;
+
+}
+
+/* Container for the signup form */
+.signup-container {
+    flex: 1;
+    max-width: 375px;
+    height: auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px #002f34;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+/* Heading */
+.signup-heading {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #002f34;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+.signup-tagline {
+    color: #002f34;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 1rem;
+    color: #002f34;
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #002f34;
+    outline: none;
+}
+
+/* Button styling */
+.signup-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.signup-button:hover {
+    background-color: #002f34;
+}
+
+/* Link styling */
+.login-link {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.login-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    color: #002f34;
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .signup-wrapper {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .signup-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .signup-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .signup-heading {
+        font-size: 1.5rem;
+    }
+
+    .form-group input {
+        font-size: 0.9rem;
+    }
+
+    .signup-button {
+        font-size: 1rem;
+    }
+}

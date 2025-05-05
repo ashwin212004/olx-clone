@@ -1,0 +1,67 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('C:\Users\ashwi\OneDrive\Desktop\my-app\react-app\src\components\add.jpg'); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.form-card{
+    background:#f0f0f0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px #002f34;
+    width: 550px;
+    z-index: 1;
+    position: relative;
+}
+.form-previews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-previews img {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+p{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+label{
+    font-weight: bold;
+    display: block;
+}
+
+.form-control{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-btn{
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-btn:hover{
+    background-color: #002f34;
+}

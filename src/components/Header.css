@@ -1,0 +1,138 @@
+.home-link{
+    height: 44;
+    text-decoration: none;
+    font-size: 30px;
+    color: #002f34;
+    font-weight: bold;
+    margin-right:10px;
+    
+}
+.header-contaainer{
+    padding: 10px 20px;
+    background-color: #002f3408;
+    border-bottom: 3px solid #fff;
+}
+.loaction-drop{ 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 17px; 
+    color: #002f34;
+    background-color:#f9f9f9; 
+    transition: all 0.3s ease;
+    height: 35px;
+    width:auto;
+  }
+  .search{
+    margin-left: 80px;
+    outline: none;
+    padding-left: 10px;
+    width: 700px;
+    height: 44px;
+    border: 2px solid #002f34;
+    border-radius: 4px 0px 0px 4px;
+
+}
+.search-btn{
+    height:44px;
+    background-color: #002f34;
+    color:#fff;
+    border-radius: 0px 4px 4px 0px;
+    outline: none;
+    border: none;
+    padding: 0px 15px;
+}
+.my-fav{
+    height:35px;
+    background-color: #002f34;
+    color:#fff;
+    border-radius:10px;
+    outline: none;
+    border: none;
+    margin-top: 12px;
+    margin-left: 125px;
+
+}
+.add-product{
+    height: 45px;
+    width: 100px;
+    color:#fff;
+    border-radius:4px;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+ 
+}
+.my-ads-btn{
+    height:35px;
+    width: 100%;
+    color:#002f34;
+    border-radius:4px;
+    outline: none;
+    border: none;
+
+}
+.my-ads-btn:hover{
+    background-color: rgb(115, 233, 135);
+}
+.my-profile-btn{
+    height:35px;
+    width: 100%;
+    color:#002f34;
+    border-radius:4px;
+    outline: none;
+    border: none;
+padding: 1px 10px;
+margin-right: 10px;
+
+}
+.my-profile-btn:hover{
+    background-color: rgb(115, 233, 135);
+}
+.logout-btn{
+    height:35px;
+    width: 100%;
+    color:#002f34;
+    border-radius:4px;
+    outline: none;
+    border: none;
+padding: 1px 10px;
+margin-right: 10px;
+}
+.logout-btn:hover{
+    background-color: rgb(115, 233, 135);
+    
+}
+.login-btn{
+    height:35px;
+    width: 100%;
+    color:#002f34;
+    border-radius:4px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+padding: 1px 10px;
+margin-right: 10px;
+}
+.login-btn:hover{
+    background-color: rgb(115, 233, 135);
+    
+}
+.cat-container{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.my-cat{
+    color: #002f34;
+
+}
+.mt-3{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.category{
+    color: #002f34 ;
+    padding: 10px;
+    cursor: pointer;
+}
+
